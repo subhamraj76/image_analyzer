@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <>
       <Heading color="white" marginBottom="3rem" size="3xl">
-        ImageInsight
+        Image Analyzer
       </Heading>
       <Text fontSize={25} textAlign="center" marginBottom="2rem">
-        Convert your images into clear and concise descriptions instantly.
+        Upload and analyze your images with detailed insights and information.
       </Text>
     </>
   );

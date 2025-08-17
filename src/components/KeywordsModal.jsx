@@ -13,8 +13,8 @@ import {
   useMediaQuery,
 } from "@chakra-ui/react";
 
-const KeywordsModal = ({
-  keywords,
+const AnalysisModal = ({
+  analysis,
   loading,
   isOpen,
   closeModal,
@@ -53,7 +53,7 @@ const KeywordsModal = ({
                   />
                 )}
                 <Text marginTop="1rem" color="white" fontWeight="bold">
-                  {keywords}
+                  {analysis}
                 </Text>
               </Box>
             )}
@@ -69,4 +69,4 @@ const KeywordsModal = ({
   );
 };
 
-export default KeywordsModal;
+export default AnalysisModal;
